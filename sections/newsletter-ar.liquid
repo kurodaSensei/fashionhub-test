@@ -1,0 +1,86 @@
+<div class="newsletter-ar">
+  <div class="page-width ar-grid">
+    <div class="grid-12 grid-md-6">
+      <h3 class="newsletter_title">{{ section.settings.heading }}</h3>
+      <div class="newsletter_text">
+        {{ section.settings.text }}
+      </div>
+    </div>
+    <div class="grid-12 grid-md-6">
+      <form action="" method="post">
+        <input type="email" value="" placeholder="Your email address">
+        <button type="submit" class="button">{{ section.settings.btn_label }}</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% style %}
+  .newsletter-ar {
+    background-color: {{ section.settings.background }}
+  }
+  .newsletter_title,
+  .newsletter_text,
+  button[type=submit] {
+    color: {{ section.settings.text_color }}
+  }
+  .button[type=submit] {
+    background-color: {{ section.settings.btn_color }}
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Config"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background section",
+      "default": "#FFC43F"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Background button",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Section Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Subscribe to Our Newsletters",
+      "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Sign Up for our newsletter and never miss any offers</p>",
+      "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "default": "Subscribe Now",
+      "label": "Button Label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter"
+    }
+  ]
+}
+{% endschema %}
