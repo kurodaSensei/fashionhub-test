@@ -1,5 +1,65 @@
 {
   "sections": {
+    "3d218c37-3ad1-4db3-a4c2-99475526130f": {
+      "type": "slider-collections-ar",
+      "blocks": {
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-0": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": ""
+          }
+        },
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-1": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": ""
+          }
+        },
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-2": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": ""
+          }
+        },
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-3": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": ""
+          }
+        },
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-4": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": ""
+          }
+        },
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-5": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": "leather"
+          }
+        },
+        "8236450b-aa27-4c95-8faa-70b25d4aed20": {
+          "type": "Slideshow",
+          "settings": {
+            "item_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-0",
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-1",
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-2",
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-3",
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-4",
+        "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-5",
+        "8236450b-aa27-4c95-8faa-70b25d4aed20"
+      ],
+      "settings": {
+        "show_title": true,
+        "heading": "POPULAR CATEGORIES"
+      }
+    },
     "1b12532f-d908-415d-805f-ad78d0cb653c": {
       "type": "multicolumn-ar",
       "blocks": {
@@ -134,6 +194,7 @@
     }
   },
   "order": [
+    "3d218c37-3ad1-4db3-a4c2-99475526130f",
     "1b12532f-d908-415d-805f-ad78d0cb653c",
     "7888ee46-d61d-40c2-9cc4-89c819146458",
     "b640eae4-9791-43d7-ae5d-2895cbee1403",
