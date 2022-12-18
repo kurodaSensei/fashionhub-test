@@ -24,13 +24,13 @@
         "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-3": {
           "type": "Slideshow",
           "settings": {
-            "item_collection": ""
+            "item_collection": "tops"
           }
         },
         "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-4": {
           "type": "Slideshow",
           "settings": {
-            "item_collection": ""
+            "item_collection": "bikinis"
           }
         },
         "template--17269796471070__3d218c37-3ad1-4db3-a4c2-99475526130f-16713994650fb9a0c1-5": {
@@ -42,7 +42,7 @@
         "8236450b-aa27-4c95-8faa-70b25d4aed20": {
           "type": "Slideshow",
           "settings": {
-            "item_collection": ""
+            "item_collection": "office"
           }
         }
       },
