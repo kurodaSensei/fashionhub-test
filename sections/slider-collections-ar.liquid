@@ -11,7 +11,7 @@
     {% assign collection_item = item.settings.item_collection %}
 
     <li class="splide__slide">
-      {{ collection_item.image | image_url: width: 298 | image_tag }}
+      {{ collection_item.image | image_url: width: 299 | image_tag }}
       <h3>{{ collection_item.title }}</h3>
     </li>
   {% endfor %}
@@ -28,6 +28,7 @@
 {% schema %}
 {
   "name": "Slider Collections - AR",
+  "class": "slider-ar",
   "settings": [
     {
       "type": "checkbox",

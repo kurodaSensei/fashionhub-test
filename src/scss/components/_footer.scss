@@ -1,0 +1,49 @@
+.footer__copyright {
+  hr {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  &-text {
+    @include font($jost, 17px, 36px, 400);
+  }
+}
+.social-ar {
+  a {
+    padding-right: 43px;
+    padding-left: 0;
+  }
+}
+
+.footer-block {
+  &__heading {
+    margin-top: 0;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    @include font($josefin, 18px, 18px, 700);
+  }
+
+  &__details-content {
+    @include font($jost, 17px, 36px, 400);
+
+    &.footer-block-image {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__newsletter {
+    p {
+      color: #fff;
+      @include font($jost, 17px, 36px, 400);
+    }
+    .newsletter-form__field-wrapper {
+      #NewsletterForm--footer {
+        background-color: #fff;
+        color: #949494;
+        @include font($jost, 16px, 36px, 400);
+      }
+      .field__label {
+        color: #949494;
+      }
+    }
+  }
+}

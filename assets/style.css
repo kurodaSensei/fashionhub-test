@@ -1,6 +1,10 @@
 /*!**************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss ***!
   \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Josefin+Sans:wght@400;700&family=Jost&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss (1) ***!
+  \******************************************************************************************************************/
 .splide__container {
   box-sizing: border-box;
   position: relative;
@@ -567,4 +571,176 @@
   .grid-xl-12 {
     grid-column: span 12;
   }
+}
+.slider-ar #carousel-heading {
+  text-align: center;
+  margin-bottom: 52px;
+  font-family: "Arsenal", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.slider-ar .splide__slide h3 {
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.multicolumn-ar .multicolumn-card__info h3 {
+  font-family: "Arsenal", sans-serif;
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.multicolumn-ar .multicolumn-card__info .rte {
+  margin-top: 28px;
+  color: #747474;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.collection-ar .title-ar {
+  color: #222222;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #000000;
+  font-family: "Arsenal", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.collection-ar .card__information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.collection-ar .card__information .card__heading {
+  color: #222222;
+  text-transform: capitalize;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 21px;
+  line-height: 37px;
+  font-weight: 400;
+}
+.collection-ar .card__information .card-information {
+  width: auto;
+}
+.collection-ar .card__information .card-information .price {
+  color: #747474;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 21px;
+  line-height: 46px;
+  font-weight: 400;
+}
+
+.newsletter-ar {
+  padding: 95px 0;
+}
+.newsletter-ar .page-width {
+  max-width: 1200px;
+}
+.newsletter-ar .newsletter__title {
+  margin-bottom: 14px;
+  margin-top: 0;
+  font-family: "Arsenal", sans-serif;
+  font-size: 56px;
+  line-height: 77px;
+  font-weight: 400;
+}
+.newsletter-ar .newsletter__text {
+  font-family: "Jost", sans-serif;
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+}
+.newsletter-ar .newsletter__text p {
+  margin: 0;
+}
+.newsletter-ar .newsletter__banner form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.newsletter-ar .newsletter__banner form input {
+  text-align: center;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.newsletter-ar .newsletter__banner form button {
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.newsletter-ar .newsletter__banner form button::after {
+  content: none;
+}
+
+.footer__copyright hr {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.footer__copyright-text {
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.social-ar a {
+  padding-right: 43px;
+  padding-left: 0;
+}
+
+.footer-block__heading {
+  margin-top: 0;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+.footer-block__details-content {
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.footer-block__details-content.footer-block-image {
+  margin-bottom: 20px;
+}
+.footer-block__newsletter p {
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.footer-block__newsletter .newsletter-form__field-wrapper #NewsletterForm--footer {
+  background-color: #fff;
+  color: #949494;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.footer-block__newsletter .newsletter-form__field-wrapper .field__label {
+  color: #949494;
 }

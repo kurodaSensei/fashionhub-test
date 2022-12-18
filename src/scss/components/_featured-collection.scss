@@ -1,0 +1,31 @@
+.collection-ar {
+
+  .title-ar {
+    color: #222222;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #000000;
+    @include font($arsenal, 36px, 45px, 400); 
+  }
+  .card__information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .card__heading {
+      color:#222222;
+      text-transform: capitalize;
+      @include font($josefin, 21px, 37px, 400); 
+
+    }
+    .card-information {
+      width: auto;
+      .price {
+        color: #747474;
+        @include font($josefin, 21px, 46px, 400);
+      }
+    }
+  }
+}

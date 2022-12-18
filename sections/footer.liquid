@@ -156,7 +156,7 @@
                   {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                 {%- endif -%}
               </div>
-              <ul class="footer__list-social list-unstyled list-social" role="list">
+              <ul class="footer__list-social list-unstyled list-social social-ar" role="list">
                 {%- if settings.social_twitter_link != blank -%}
                   <li class="list-social__item">
                     <a href="{{ settings.social_twitter_link }}" class="link list-social__link">
@@ -336,7 +336,7 @@
           "type": "range",
           "id": "image_width",
           "min": 50,
-          "max": 200,
+          "max": 300,
           "step": 5,
           "unit": "px",
           "label": "Image width",
