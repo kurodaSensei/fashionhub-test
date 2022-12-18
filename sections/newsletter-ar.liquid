@@ -1,13 +1,13 @@
 <div class="newsletter-ar">
   <div class="page-width ar-grid">
-    <div class="grid-12 grid-md-6">
-      <h3 class="newsletter_title">{{ section.settings.heading }}</h3>
-      <div class="newsletter_text">
+    <div class="grid-12 grid-md-8">
+      <h3 class="newsletter__title">{{ section.settings.heading }}</h3>
+      <div class="newsletter__text">
         {{ section.settings.text }}
       </div>
     </div>
-    <div class="grid-12 grid-md-6">
-      <form action="" method="post">
+    <div class="grid-12 grid-md-4 newsletter__banner">
+      <form method="post">
         <input type="email" value="" placeholder="Your email address">
         <button type="submit" class="button">{{ section.settings.btn_label }}</button>
       </form>
@@ -18,8 +18,8 @@
   .newsletter-ar {
     background-color: {{ section.settings.background }}
   }
-  .newsletter_title,
-  .newsletter_text,
+  .newsletter__title,
+  .newsletter__text,
   button[type=submit] {
     color: {{ section.settings.text_color }}
   }

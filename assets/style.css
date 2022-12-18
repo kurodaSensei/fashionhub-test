@@ -572,6 +572,58 @@
     grid-column: span 12;
   }
 }
+.newsletter-ar {
+  padding: 95px 0;
+}
+.newsletter-ar .page-width {
+  max-width: 1200px;
+}
+.newsletter-ar .newsletter__title {
+  margin-bottom: 14px;
+  margin-top: 0;
+  font-family: "Arsenal", sans-serif;
+  font-size: 56px;
+  line-height: 77px;
+  font-weight: 400;
+}
+.newsletter-ar .newsletter__text {
+  font-family: "Jost", sans-serif;
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+}
+.newsletter-ar .newsletter__text p {
+  margin: 0;
+}
+.newsletter-ar .newsletter__banner form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.newsletter-ar .newsletter__banner form input {
+  text-align: center;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.newsletter-ar .newsletter__banner form button {
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.newsletter-ar .newsletter__banner form button::after {
+  content: none;
+}
+
 .footer__copyright hr {
   margin-top: 80px;
   margin-bottom: 40px;

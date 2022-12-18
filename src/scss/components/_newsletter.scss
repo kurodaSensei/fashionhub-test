@@ -1,0 +1,45 @@
+.newsletter-ar {
+  padding: 95px 0;
+  .page-width {
+    max-width: 1200px;
+  }
+
+  .newsletter {
+    &__title {
+      margin-bottom: 14px;
+      margin-top: 0;
+      @include font($arsenal, 56px, 77px, 400);  
+    }
+    &__text {
+      p {
+        margin: 0;
+      }
+      @include font($jost, 21px, 31px, 400);
+    }
+
+    &__banner {
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        input {
+          text-align: center;
+          height: 50px;
+          background: #FFFFFF;
+          border: 1px solid #D8D8D8;
+          border-radius: 10px;
+          margin-bottom: 20px;
+          @include font($jost, 16px, 36px, 400);
+        }
+        button {
+          border-radius: 10px;
+          text-transform: uppercase;
+          @include font($jost, 16px, 36px, 600);
+          &::after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+}
