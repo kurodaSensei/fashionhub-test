@@ -70,12 +70,12 @@
     "7888ee46-d61d-40c2-9cc4-89c819146458": {
       "type": "featured-collection-ar",
       "settings": {
-        "title": "PERFUMES",
+        "title": "DRESSES",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "perfumes",
+        "collection": "dresses",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -97,12 +97,12 @@
     "b640eae4-9791-43d7-ae5d-2895cbee1403": {
       "type": "featured-collection-ar",
       "settings": {
-        "title": "Perfumes",
+        "title": "PERFUMES",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "dresses",
+        "collection": "perfumes",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
