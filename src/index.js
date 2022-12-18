@@ -1,3 +1,5 @@
-console.log('====================================');
-console.log('Welcome');
-console.log('====================================');
+import { Slider } from "./js/utils/slider";
+
+document.addEventListener('DOMContentLoaded', () => {
+  Slider();
+})
