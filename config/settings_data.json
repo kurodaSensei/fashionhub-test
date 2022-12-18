@@ -60,21 +60,21 @@
             "type": "link_list",
             "settings": {
               "heading": "QUICK LINKS",
-              "menu": "main-menu"
+              "menu": "quick"
             }
           },
           "footer-2": {
             "type": "link_list",
             "settings": {
               "heading": "ABOUT",
-              "menu": "footer"
+              "menu": "about"
             }
           },
           "footer-3": {
             "type": "link_list",
             "settings": {
               "heading": "HELP CENTER",
-              "menu": ""
+              "menu": "help"
             }
           },
           "footer-4": {

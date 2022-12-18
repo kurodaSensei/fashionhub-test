@@ -97,8 +97,8 @@
     "b640eae4-9791-43d7-ae5d-2895cbee1403": {
       "type": "featured-collection-ar",
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "Perfumes",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -124,8 +124,8 @@
     "df53b68d-6739-484f-b53b-a14d48ba4ac7": {
       "type": "newsletter-ar",
       "settings": {
-        "background": "#FFC43F",
-        "text_color": "#FFFFFF",
+        "background": "#ffc43f",
+        "text_color": "#ffffff",
         "btn_color": "#000000",
         "heading": "Subscribe to Our Newsletters",
         "text": "<p>Sign Up for our newsletter and never miss any offers<\/p>",
