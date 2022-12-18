@@ -1,6 +1,10 @@
 /*!**************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss ***!
   \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Josefin+Sans:wght@400;700&family=Jost&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss (1) ***!
+  \******************************************************************************************************************/
 .splide__container {
   box-sizing: border-box;
   position: relative;
@@ -567,4 +571,56 @@
   .grid-xl-12 {
     grid-column: span 12;
   }
+}
+.footer__copyright hr {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.footer__copyright-text {
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.social-ar a {
+  padding-right: 43px;
+  padding-left: 0;
+}
+
+.footer-block__heading {
+  margin-top: 0;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+.footer-block__details-content {
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.footer-block__details-content.footer-block-image {
+  margin-bottom: 20px;
+}
+.footer-block__newsletter p {
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.footer-block__newsletter .newsletter-form__field-wrapper #NewsletterForm--footer {
+  background-color: #fff;
+  color: #949494;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.footer-block__newsletter .newsletter-form__field-wrapper .field__label {
+  color: #949494;
 }

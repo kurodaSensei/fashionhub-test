@@ -1,2 +1,7 @@
 @import '../../node_modules/@splidejs/splide/src/css/themes/default/index.scss';
-@import './grid';
+
+@import './components/fonts';
+@import './components/grid';
+@import './mixins';
+
+@import './components/footer';
