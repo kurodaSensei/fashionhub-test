@@ -1,16 +1,5 @@
 {
   "sections": {
-    "19d2c769-0334-455c-b9a4-283e7a2ea4ba": {
-      "type": "newsletter-ar",
-      "settings": {
-        "background": "#FFC43F",
-        "text_color": "#FFFFFF",
-        "btn_color": "#000000",
-        "heading": "Subscribe to Our Newsletters",
-        "text": "<p>Sign Up for our newsletter and never miss any offers<\/p>",
-        "btn_label": "Subscribe Now"
-      }
-    },
     "1b12532f-d908-415d-805f-ad78d0cb653c": {
       "type": "multicolumn-ar",
       "blocks": {
@@ -145,7 +134,6 @@
     }
   },
   "order": [
-    "19d2c769-0334-455c-b9a4-283e7a2ea4ba",
     "1b12532f-d908-415d-805f-ad78d0cb653c",
     "7888ee46-d61d-40c2-9cc4-89c819146458",
     "b640eae4-9791-43d7-ae5d-2895cbee1403",
