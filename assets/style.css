@@ -572,6 +572,74 @@
     grid-column: span 12;
   }
 }
+.slider-ar #carousel-heading {
+  text-align: center;
+  margin-bottom: 52px;
+  font-family: "Arsenal", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.slider-ar .splide__slide h3 {
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.multicolumn-ar .multicolumn-card__info h3 {
+  font-family: "Arsenal", sans-serif;
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.multicolumn-ar .multicolumn-card__info .rte {
+  margin-top: 28px;
+  color: #747474;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.collection-ar .title-ar {
+  color: #222222;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #000000;
+  font-family: "Arsenal", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.collection-ar .card__information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.collection-ar .card__information .card__heading {
+  color: #222222;
+  text-transform: capitalize;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 21px;
+  line-height: 37px;
+  font-weight: 400;
+}
+.collection-ar .card__information .card-information {
+  width: auto;
+}
+.collection-ar .card__information .card-information .price {
+  color: #747474;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 21px;
+  line-height: 46px;
+  font-weight: 400;
+}
+
 .newsletter-ar {
   padding: 95px 0;
 }

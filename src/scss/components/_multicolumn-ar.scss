@@ -1,0 +1,12 @@
+.multicolumn-ar {
+  .multicolumn-card__info {
+    h3 {
+      @include font($arsenal, 27px, 32px, 400);
+    }
+    .rte {
+      margin-top: 28px;
+      color: #747474;
+      @include font($jost, 16px, 30px, 400);
+    }
+  }
+}

@@ -20,7 +20,7 @@
 <section
   class="splide"
   aria-label="{{ title }}"
-  data-splide='{"arrows":false,"pagination":false,"type":"slide","perPage":{{ items_count | minus: 1 }},"padding":"0","perMove":1,"fixedWidth":"298px"}'
+  data-splide='{"arrows":false,"pagination":false,"type":"loop","perPage":{{ items_count | minus: 1 }},"padding":"0","perMove":1,"fixedWidth":"299px"}'
 >
   {% if show_title %}
     <h2 id="carousel-heading">{{ title }}</h2>
