@@ -61,7 +61,9 @@
             {%- when 'newsletter' -%}
               <div class="footer-block__newsletter">
                 {%- if block.settings.newsletter_heading != blank -%}
-                  <h2 class="footer-block__heading">{{ block.settings.newsletter_heading | escape }}</h2>
+                  <h2 class="footer-block__heading">
+                    {{ block.settings.newsletter_heading | escape }}
+                  </h2>
                   <p>{{ block.settings.subtext }}</p>
                 {%- endif -%}
                 {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
