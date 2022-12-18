@@ -17,9 +17,9 @@
         "template--17239192207649__1b12532f-d908-415d-805f-ad78d0cb653c-167137284640fa22d1-0": {
           "type": "column",
           "settings": {
-            "image": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "delivery",
+            "title": "Free Delivery",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -27,9 +27,9 @@
         "template--17239192207649__1b12532f-d908-415d-805f-ad78d0cb653c-167137284640fa22d1-1": {
           "type": "column",
           "settings": {
-            "image": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "secure",
+            "title": "100% secure payment",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -37,9 +37,9 @@
         "template--17239192207649__1b12532f-d908-415d-805f-ad78d0cb653c-167137284640fa22d1-2": {
           "type": "column",
           "settings": {
-            "image": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "guarantee",
+            "title": "Quality guarantee",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -47,9 +47,9 @@
         "template--17239192207649__1b12532f-d908-415d-805f-ad78d0cb653c-167137284640fa22d1-3": {
           "type": "column",
           "settings": {
-            "image": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "savings",
+            "title": "guaranteed savings",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipi elit. ipsum dolor sit amet.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -62,20 +62,47 @@
         "template--17239192207649__1b12532f-d908-415d-805f-ad78d0cb653c-167137284640fa22d1-3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "7888ee46-d61d-40c2-9cc4-89c819146458": {
+      "type": "featured-collection-ar",
+      "settings": {
+        "title": "PERFUMES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "perfumes",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "b640eae4-9791-43d7-ae5d-2895cbee1403": {
@@ -101,14 +128,27 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 150
+      }
+    },
+    "df53b68d-6739-484f-b53b-a14d48ba4ac7": {
+      "type": "newsletter-ar",
+      "settings": {
+        "background": "#FFC43F",
+        "text_color": "#FFFFFF",
+        "btn_color": "#000000",
+        "heading": "Subscribe to Our Newsletters",
+        "text": "<p>Sign Up for our newsletter and never miss any offers<\/p>",
+        "btn_label": "Subscribe Now"
       }
     }
   },
   "order": [
     "19d2c769-0334-455c-b9a4-283e7a2ea4ba",
     "1b12532f-d908-415d-805f-ad78d0cb653c",
-    "b640eae4-9791-43d7-ae5d-2895cbee1403"
+    "7888ee46-d61d-40c2-9cc4-89c819146458",
+    "b640eae4-9791-43d7-ae5d-2895cbee1403",
+    "df53b68d-6739-484f-b53b-a14d48ba4ac7"
   ]
 }
