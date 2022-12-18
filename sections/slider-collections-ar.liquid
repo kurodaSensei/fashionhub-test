@@ -1,0 +1,84 @@
+{% liquid
+  assign slider_id = section.settings.id_slider
+  assign items = section.blocks
+  assign show_title = section.settings.show_title
+  assign title = section.settings.heading
+  assign collection_size = items | size
+%}
+
+{% capture items_slider %}
+  {% for item in items %}
+    {% assign collection_item = item.settings.item_collection %}
+
+    <li class="splide__slide">
+      {{ collection_item.image | image_url: width: 298 | image_tag }}
+      <h3>{{ collection_item.title }}</h3>
+    </li>
+  {% endfor %}
+{% endcapture %}
+
+{% render 'slider',
+  id: slider_id,
+  items: items_slider,
+  title: title,
+  show_title: show_title,
+  items_count: collection_size
+%}
+
+{% schema %}
+{
+  "name": "Slider Collections - AR",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Check if show title",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Slider Title",
+      "default": "POPULAR CATEGORIES"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Slideshow",
+      "name": "Slideshow",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "item_collection",
+          "label": "Select collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slider Collections - AR",
+      "blocks": [
+        {
+          "type": "Slideshow"
+        },
+        {
+          "type": "Slideshow"
+        },
+        {
+          "type": "Slideshow"
+        },
+        {
+          "type": "Slideshow"
+        },
+        {
+          "type": "Slideshow"
+        },
+        {
+          "type": "Slideshow"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
