@@ -1,0 +1,83 @@
+<div class="hero-parallax__container">
+  <div class="page-width">
+    <h1>{{ section.settings.heading }}</h1>
+    <h2>{{ section.settings.description }}</h2>
+    {% if section.settings.button_label != blank %}
+      <a
+        href="{{ section.settings.btn_link }}"
+        class="button button button--secondary"
+      >
+        {{ section.settings.button_label }}
+      </a>
+    {% endif %}
+    <img
+      src="{{ section.settings.background_image }}"
+      alt="{{ section.settings.heading }}"
+      srcset="{{ section.settings.background_image | image_url }}"
+      width=""
+      height=""
+      loading="lazy"
+    >
+  </div>
+</div>
+{% style %}
+  .hero-parallax__container {
+    background-image: url({{ section.settings.background_parallax | image_url }});
+    min-height: 852px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+{% endstyle %}
+{% schema %}
+{
+  "name": "Hero Parallax - AR",
+  "class": "hero-parallax",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading Hero",
+      "default": "Summer Collection"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Text Banner",
+      "default": "Shop all the new arrivals handpicked collection for this summer"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Url button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button text",
+      "default": "shop now"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_parallax",
+      "label": "Hero Background Parallax"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Hero Background NO Parallax"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rrss",
+      "label": "Show/Hide RRSS"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Parallax - AR"
+    }
+  ]
+}
+{% endschema %}
