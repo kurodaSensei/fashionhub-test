@@ -1,0 +1,26 @@
+#shopify-section-header {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+.header-ar {
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .brand {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      &__logo {
+        margin-right: 62px;
+      }
+      .icons {
+        svg {
+          margin-right: 60px;
+        }
+      }
+    }
+  }
+}

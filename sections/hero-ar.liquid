@@ -1,12 +1,43 @@
 <div class="hero-parallax__container">
   <div class="page-width">
-    <h1 class="hero-parallax__title">{{ section.settings.heading }}</h1>
-    <h2 class="hero-parallax__subtitle">{{ section.settings.description }}</h2>
-    {% if section.settings.button_label != blank %}
-      <a href="{{ section.settings.btn_link }}" class="button hero-parallax__button">
-        {{ section.settings.button_label }}
-      </a>
+    {% if section.settings.show_rrss == true %}
+      <div class="hero-parallax__hero-rrss">
+        <ul class="footer__list-social list-unstyled list-social social-ar" role="list">
+          <li class="list-social__item">
+            <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
+              <span class="">{{ 'general.social.links.facebook' | t }}</span>
+            </a>
+          </li>
+
+          <li class="list-social__item">
+            <a href="{{ settings.social_twitter_link }}" class="link list-social__link">
+              <span class="">{{ 'general.social.links.twitter' | t }}</span>
+            </a>
+          </li>
+
+          <li class="list-social__item">
+            <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+              <span class="">{{ 'general.social.links.instagram' | t }}</span>
+            </a>
+          </li>
+
+          <li class="list-social__item">
+            <a href="{{ settings.social_snapchat_link }}" class="link list-social__link">
+              <span class="">{{ 'general.social.links.snapchat' | t }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     {% endif %}
+    <div class="content">
+      <h1 class="hero-parallax__title">{{ section.settings.heading }}</h1>
+      <h2 class="hero-parallax__subtitle">{{ section.settings.description }}</h2>
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.btn_link }}" class="button hero-parallax__button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
     <img
       src="{{ section.settings.background_image }}"
       alt="{{ section.settings.heading }}"
@@ -14,7 +45,8 @@
       width=""
       height=""
       loading="lazy"
-      class="hero-parallax__image">
+      class="hero-parallax__image"
+    >
   </div>
 </div>
 {% style %}
@@ -22,56 +54,59 @@
     background-image: url('{{ section.settings.background_parallax | image_url }}');
     min-height: 852px;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 {% endstyle %}
 {% schema %}
-  {
-    "name": "Hero Parallax - AR",
-    "class": "hero-parallax",
-    "settings": [
-      {
-        "type": "text",
-        "id": "heading",
-        "label": "Heading Hero",
-        "default": "Summer Collection"
-      },
-      {
-        "type": "text",
-        "id": "description",
-        "label": "Text Banner",
-        "default": "Shop all the new arrivals handpicked collection for this summer"
-      },
-      {
-        "type": "url",
-        "id": "btn_link",
-        "label": "Url button"
-      },
-      {
-        "type": "text",
-        "id": "button_label",
-        "label": "Button text",
-        "default": "shop now"
-      }, {
-        "type": "image_picker",
-        "id": "background_parallax",
-        "label": "Hero Background Parallax"
-      }, {
-        "type": "image_picker",
-        "id": "background_image",
-        "label": "Hero Background NO Parallax"
-      }, {
-        "type": "checkbox",
-        "id": "show_rrss",
-        "label": "Show/Hide RRSS"
-      }
-    ],
-    "presets": [
-      {
-        "name": "Hero Parallax - AR"
-      }
-    ]
-  }
+{
+  "name": "Hero Parallax - AR",
+  "class": "hero-parallax",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading Hero",
+      "default": "Summer Collection"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Text Banner",
+      "default": "Shop all the new arrivals handpicked collection for this summer"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Url button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button text",
+      "default": "shop now"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_parallax",
+      "label": "Hero Background Parallax"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Hero Background NO Parallax"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rrss",
+      "label": "Show/Hide RRSS",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Parallax - AR"
+    }
+  ]
+}
 {% endschema %}

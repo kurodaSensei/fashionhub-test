@@ -23,6 +23,9 @@
   }
 
   &__details-content {
+    a {
+      text-decoration: none;
+    }
     @include font($jost, 17px, 36px, 400);
 
     &.footer-block-image {
