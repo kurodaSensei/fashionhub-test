@@ -1,5 +1,17 @@
 {
   "sections": {
+    "4b68c4fa-e4e4-426b-adb5-d6e61797dc19": {
+      "type": "hero-ar",
+      "settings": {
+        "heading": "Summer Collection",
+        "description": "Shop all the new arrivals handpicked collection for this summer",
+        "btn_link": "",
+        "button_label": "shop now",
+        "background_parallax": "shopify:\/\/shop_images\/Group_82.jpg",
+        "background_image": "shopify:\/\/shop_images\/khaled-ghareeb-qWwBFJXp_yU-unsplash_ccexpress_1.png",
+        "show_rrss": true
+      }
+    },
     "3d218c37-3ad1-4db3-a4c2-99475526130f": {
       "type": "slider-collections-ar",
       "blocks": {
@@ -194,6 +206,7 @@
     }
   },
   "order": [
+    "4b68c4fa-e4e4-426b-adb5-d6e61797dc19",
     "3d218c37-3ad1-4db3-a4c2-99475526130f",
     "1b12532f-d908-415d-805f-ad78d0cb653c",
     "7888ee46-d61d-40c2-9cc4-89c819146458",
