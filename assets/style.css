@@ -572,6 +572,42 @@
     grid-column: span 12;
   }
 }
+.hero-parallax__title {
+  color: #ffffff;
+  font-family: "Arsenal";
+  font-size: 150px;
+  line-height: 150px;
+  font-weight: 700;
+}
+.hero-parallax__subtitle {
+  color: #ffffff;
+  font-family: "Jost";
+  font-size: 19px;
+  line-height: 30.4px;
+  font-weight: 400;
+}
+.hero-parallax__button {
+  background-color: #000000;
+  border: none !important;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 56px;
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 23.12px;
+  font-weight: 700;
+}
+.hero-parallax__button::after, .hero-parallax__button::before {
+  box-shadow: none;
+}
+.hero-parallax__image {
+  bottom: 0%;
+  position: absolute;
+  right: 18%;
+}
+
 .slider-ar #carousel-heading {
   text-align: center;
   margin-bottom: 52px;

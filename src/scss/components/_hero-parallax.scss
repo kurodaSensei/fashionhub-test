@@ -1,3 +1,29 @@
 .hero-parallax {
-  
+  &__title {
+    color: #ffffff;
+    @include font("Arsenal", 150px, 150px, 700);
+  }
+  &__subtitle {
+    color: #ffffff;
+    @include font("Jost", 19px, 30.4px, 400);
+  }
+  &__button {
+    background-color: #000000;
+    border: none !important;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 56px;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+    @include font("Jost", 16px, 23.12px, 700);
+    &::after,
+    &::before {
+      box-shadow: none;
+    }
+  }
+  &__image {
+    bottom: 0%;
+    position: absolute;
+    right: 18%;
+  }
 }

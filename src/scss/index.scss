@@ -1,11 +1,12 @@
-@import '../../node_modules/@splidejs/splide/src/css/themes/default/index.scss';
+@import "../../node_modules/@splidejs/splide/src/css/themes/default/index.scss";
 
-@import './components/fonts';
-@import './components/grid';
-@import './mixins';
+@import "./components/fonts";
+@import "./components/grid";
+@import "./mixins";
 
-@import './components/slider';
-@import './components//multicolumn-ar';
-@import './components/featured-collection';
-@import './components/newsletter';
-@import './components/footer';
+@import "./components/hero-parallax";
+@import "./components/slider";
+@import "./components/multicolumn-ar";
+@import "./components/featured-collection";
+@import "./components/newsletter";
+@import "./components/footer";
